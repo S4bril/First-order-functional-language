@@ -1,4 +1,5 @@
 # First order functional language
+program p consists of global function definitions (d) that allow us to compute the value of expression e
 p ::= {define {d1 . . . dk} for e} <br />
 d := [fun f (x1 . . . xl) = e] <br />
 e ::= n | x <br />
@@ -7,4 +8,3 @@ e ::= n | x <br />
 | {let x be e1 in e2} <br />
 | {f (e1 . . . el)} <br />
 ⊕ ::= + | - | * | <= <br />
-program p consists of global function definitions (d) that allow us to compute the value of expression e.
