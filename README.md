@@ -7,4 +7,4 @@ e ::= n | x <br />
 | {let x be e1 in e2} <br />
 | {f (e1 . . . el)} <br />
 ⊕ ::= + | - | * | <= <br />
-# program p consists of global function definitions (d) that allow us to compute the value of expression e.
+program p consists of global function definitions (d) that allow us to compute the value of expression e.
